@@ -6,7 +6,7 @@ dpkg -i mysql-apt-config_0.8.22-1_all.deb
 apt install mariadb-server mariadb-client   
 
 安装完成
-### 修改配置,外网访问
+### 修改配置，让外网远程访问
 修改host
 ```
 update user set host = '%' where user ='root';   
