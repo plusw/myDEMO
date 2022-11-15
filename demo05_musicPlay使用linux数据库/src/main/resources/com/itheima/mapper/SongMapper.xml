@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace:名称空间
+-->
+
+<mapper namespace="com.itheima.mapper.SongMapper">
+
+    <!--statement-->
+    <select id="selectAll" resultType="com.itheima.pojo.Song">
+        select * from songs_info LIMIT 100;
+    </select>
+	<select id="search" resultType="com.itheima.pojo.Song">
+        select * from songs_info where singerName=#{singer};
+    </select>
+
+
+
+
+
+</mapper>

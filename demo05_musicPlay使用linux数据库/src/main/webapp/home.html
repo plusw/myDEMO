@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="hello">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<style>
+	img {
+		width:50px;
+		height: auto;
+}
+	body 
+	{
+		background-image:url('bg4.jpg');	
+		background-size:100% 100%;
+		background-attachment: fixed;
+	}
+	
+</style>
+<style lang="scss">
+	.el-textarea__inner,.el-input__inner {
+    background: transparent !important;
+}
+</style>
+    <style>
+	.el-table--border th,tr,td{
+       border: none!important;
+    }
+    .el-table::before{
+      height:0;
+    }
+
+	.el-table, .el-table__expanded-cell{
+		background-color:transparent!important;
+	}
+	.el-table th,
+	.el-table tr,
+	.el-table td {
+		background-color:transparent!important;
+}
+</style>
+</head>
+<body>
+<div id="loginDiv">
+    <form action="/web-demo/loadServlet2" method="post" id="form">
+    </form>
+</div>
+<div id="app" class="my_table">
+	<div>
+		<div style="float:right">
+			<el-input
+				size="middle"
+				placeholder="搜索"
+				id="singer" 
+				name="singer" 
+				type="text"
+				style="float:left"
+				v-model="input1">
+			<el-button slot="append" icon="el-icon-search" @click="goToSearchServlet()"></el-button>
+			</el-input>
+		</div>
+	</div>
+    <el-table	:data="tableData" @selection-change="handleSelectionChange" :show-header="false" >
+		<el-table-column type="selection" width="80" v-if="false"></el-table-column>
+		<el-table-column prop="id" label="id" width="0" v-if="false"></el-table-column>
+        <el-table-column prop="songName" label="音乐" width="300"></el-table-column>
+        <el-table-column prop="singerName" label="歌手" width="300"></el-table-column>
+        <el-table-column prop="path" label="路径" v-if="false"></el-table-column>
+		<el-table-column prop="address" label="">
+			<template slot-scope="scope">
+				<img src="music2.png"   @click="playMusic(scope.row)">
+				<el-button @click="playMusic(scope.row)" type="success" v-if="false" >播放</el-button>
+			</template>
+        </el-table-column>
+	</el-table>
+	
+   
+
+
+
+
+</div>
+<script src="js/vue.js"></script>
+<script src="element-ui/lib/index.js"></script>
+<link rel="stylesheet" href="element-ui/lib/theme-chalk/index.css">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/axios-0.18.0.js"></script>
+<script src="https://cdn.bootcss.com/qs/6.7.0/qs.js"></script>
+<script>
+	var audio = document.createElement("audio");
+    new Vue({
+        el: "#app",
+
+        mounted(){
+            this.selectAll();
+        },
+
+        methods: {
+			goToSearchServlet(){
+				var _this = this;
+				let data=Qs.stringify({
+					singer:this.input1
+                 });
+				console.log(this.input1);				
+				axios.post('http://localhost:8080/web-demo/searchSong',data)
+				.then(function (resp) {
+					console.log(resp.data);
+                    _this.tableData = resp.data;         
+				})
+			},
+            // 查询所有数据
+            selectAll(){
+                var _this = this;
+
+                axios({
+                    method:"get",
+                    url:"http://localhost:8080/web-demo/loadSong"
+                }).then(function (resp) {
+                    _this.tableData = resp.data;
+                })
+            },
+			//播放音乐
+			playMusic(row){
+				//audio.src = row.songName+".mp3";
+				audio.src =row.path;
+				console.log(audio.src);
+				audio.play();
+				audio.addEventListener('ended', function () {  
+					alert("下一首");
+				}, false);
+			},
+			handleSelectionChange(val) {
+				this.multipleSelection = val;
+				console.log(this.multipleSelection);
+			},
+        },
+        data() {
+            return {
+				input1: '',
+				tableData: [],
+				musicPath:"",
+                multipleSelection: [],
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

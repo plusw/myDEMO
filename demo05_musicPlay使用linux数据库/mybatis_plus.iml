@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module type="J2EE_WEB_MODULE" version="4">
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/mybatis_plus"/>
+  </component>
+  <component name="WebModuleProperties">
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/logback-classic-1.2.3.jar"/>
+      <url>jar://F:/idea_maven_data/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/logback-core-1.2.3.jar"/>
+      <url>jar://F:/idea_maven_data/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/slf4j-api-1.7.20.jar"/>
+      <url>jar://F:/idea_maven_data/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/ibatis-core-3.0.jar"/>
+      <url>jar://F:/idea_maven_data/org/apache/ibatis/ibatis-core/3.0/ibatis-core-3.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/junit-4.13.jar"/>
+      <url>jar://F:/idea_maven_data/junit/junit/4.13/junit-4.13.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/hamcrest-core-1.3.jar"/>
+      <url>jar://F:/idea_maven_data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/mysql-connector-java-5.1.34.jar"/>
+      <url>jar://F:/idea_maven_data/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/mybatis-3.0.1.jar"/>
+      <url>jar://F:/idea_maven_data/org/mybatis/mybatis/3.0.1/mybatis-3.0.1.jar!/</url>
+    </containerElement>
+    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml"/>
+    <webroots>
+      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp"/>
+    </webroots>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes"/>
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
+    <content>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/target"/>
+    </content>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/org/apache/ibatis/ibatis-core/3.0/ibatis-core-3.0.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/junit/junit/4.13/junit-4.13.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/idea_maven_data/org/mybatis/mybatis/3.0.1/mybatis-3.0.1.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:44 +0800] "GET /web-demo/b.html HTTP/1.1" 200 4411 http-bio-8080-exec-1 87
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:44 +0800] "GET /web-demo/js/vue.js HTTP/1.1" 200 341462 http-bio-8080-exec-3 31
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:44 +0800] "GET /web-demo/element-ui/lib/index.js HTTP/1.1" 200 567058 http-bio-8080-exec-4 26
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:44 +0800] "GET /web-demo/element-ui/lib/theme-chalk/index.css HTTP/1.1" 200 232460 http-bio-8080-exec-2 31
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:45 +0800] "GET /web-demo/element-ui/lib/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200 http-bio-8080-exec-6 28
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:36:48 +0800] "POST /request-demo/loginServlet2 HTTP/1.1" 404 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:38:04 +0800] "GET /web-demo/b.html HTTP/1.1" 200 4410 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:38:05 +0800] "POST /request-demo/LoadServlet2 HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:41:49 +0800] "GET /request-demo/loadServlet2 HTTP/1.1" 404 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:41:52 +0800] "GET /request-demo/loadServlet2 HTTP/1.1" 404 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:44:55 +0800] "GET /web-demo/b.html HTTP/1.1" 200 4414 http-bio-8080-exec-1 354
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:44:57 +0800] "POST /demo05_musicPlay/loadServlet2 HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:45:09 +0800] "GET /web-demo/loadServlet2 HTTP/1.1" 200 - http-bio-8080-exec-7 1052
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:48:13 +0800] "GET /web-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:48:13 +0800] "GET /web-demo/ HTTP/1.1" 404 969 http-bio-8080-exec-3 10
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:48:17 +0800] "GET /web-demo/b.html HTTP/1.1" 200 4406 http-bio-8080-exec-4 37
+0:0:0:0:0:0:0:1 - - [10/Oct/2022:08:48:19 +0800] "POST /web-demo/loadServlet2 HTTP/1.1" 200 - http-bio-8080-exec-6 606
