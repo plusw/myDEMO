@@ -1,4 +1,4 @@
-### debian10安装mysql  Server version: 10.3.36-MariaDB-0+deb10u2 Debian 10
+### debian10安装mysql  版本: 10.3.36-MariaDB-0+deb10u2 Debian 10
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb   
 
 dpkg -i mysql-apt-config_0.8.22-1_all.deb     
