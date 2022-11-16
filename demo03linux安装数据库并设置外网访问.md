@@ -32,6 +32,7 @@ vim /etc/mysql/mariadb.conf.d/50-server.cnf
 设置mysql密码，有密码才可以进行远程访问   
 ```sql
 update mysql.user set authentication_string=password('root') where user='root';   
+FLUSH PRIVILEGES;    
 ```
 
 service mysql restart   
