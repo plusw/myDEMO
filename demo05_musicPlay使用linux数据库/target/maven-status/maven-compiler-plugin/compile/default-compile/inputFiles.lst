@@ -1,5 +1,7 @@
 F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\web\LoadServlet.java
+F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\web\GetPlaylistServlet.java
 F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\web\SearchServlet.java
 F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\pojo\PageBean.java
 F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\mapper\SongMapper.java
 F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\pojo\Song.java
+F:\java_project\demoPlus\demo05_musicPlay使用linux数据库\src\main\java\com\itheima\web\SaveCookieServlet.java

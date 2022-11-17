@@ -12,6 +12,8 @@ import java.util.Set;
 public interface SongMapper {
 	
 	List<Song> search(String singer);
+	
+	List<Song> selectById(int id);
 
 
 

@@ -10,9 +10,9 @@
 
             <dataSource type = "POOLED">
                 <property name = "driver" value = "com.mysql.jdbc.Driver"/>
-                <property name = "url" value = "jdbc:mysql://127.0.0.1:3306/songs"/>
+                <property name = "url" value = "jdbc:mysql://106.55.105.31:3306/songs"/>
                 <property name = "username" value = "root"/>
-                <property name = "password" value = "1234"/>
+                <property name = "password" value = "root283377COMPLEX?"/>
             </dataSource>
 
         </environment>
@@ -22,4 +22,5 @@
     <mappers>
         <mapper resource="com/itheima/mapper/SongMapper.xml"/>
     </mappers>
+	
 </configuration>

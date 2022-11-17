@@ -14,7 +14,10 @@
         select * from songs_info LIMIT 100;
     </select>
 	<select id="search" resultType="com.itheima.pojo.Song">
-        select * from songs_info where singerName=#{singer};
+		select * from songs_info where position(#{singer} in singerName);
+    </select>
+	<select id="selectById" resultType="com.itheima.pojo.Song">
+		select * from songs_info where id=#{id};
     </select>
 
 
