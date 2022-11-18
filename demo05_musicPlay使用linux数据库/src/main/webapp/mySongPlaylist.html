@@ -117,8 +117,8 @@
         },
 
         methods: {
-			sleep(ms) {
-				return new Promise(resolve => setTimeout(resolve, ms));
+			ready(){
+				this.audioReady = true
 			},
 			playMusicListInOrder(){
 				this.playMusicList();
@@ -174,33 +174,37 @@
 				_this=this;
 				
 				audio.src =_this.pathList[this.pathIndex];
-				
-				setTimeout(function () {
-					audio.play();
-				}, 150);
+				audio.play();
 				
 				
 				console.log(_this.pathList[_this.pathIndex]);
-				_this.pathIndex++;
+				
 				console.log("第"+(_this.pathIndex)+"首歌");
 				
 				
-				/*
+				
+				
+				console.log(musicStatus);
 				audio.addEventListener('ended', function () {  
 				if(_this.pathIndex<_this.pathList.length){
 					console.log("播放结束，下一首歌");
+					_this.pathIndex++;
 					_this.playMusicList();
 				}
+				else if(_this.pathIndex==_this.pathList.length){	
+					_this.pathIndex=0;
+				}
 				}, false);
-				*/
 				
+				
+				/*
 				$(audio).bind("ended",function(){
 					if(_this.pathIndex<_this.pathList.length){
 						console.log("播放结束，下一首歌");
 						_this.playMusicList();
 					}
 				})
-
+*/
 
 					
 				
@@ -219,6 +223,7 @@
         },
         data() {
             return {
+				audioReady: false;
 				pathList:[],
 				pathIndex:0,
 				input1: '',
