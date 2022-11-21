@@ -1,0 +1,3 @@
+@echo off
+@echo uninstallmsi.bat ...
+@msiexec /x %uninstallproduct% /qn

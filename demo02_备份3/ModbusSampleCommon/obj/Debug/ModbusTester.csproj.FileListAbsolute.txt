@@ -1,0 +1,84 @@
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\Modbus_TCP_class_demo\ModbusSampleCommon\obj\Debug\ResGen.write.1.tlog
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+F:\编程学习\C#串口开发\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+F:\编程学习\C#串口开发\OPTO22\Modbus_TCP_CSharp\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+E:\测试工程\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+E:\测试工程\通讯相关\好例子网_ModbusSampleCommon\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.AssemblyReference.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CoreCompileInputs.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CopyComplete
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+C:\Users\plus\Desktop\C#\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\bin\Debug\ModbusTester.exe
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\bin\Debug\ModbusTester.pdb
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\bin\Debug\ModbusTCP.dll
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.csproj.AssemblyReference.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\Modbus.frmStart.resources
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.csproj.GenerateResource.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.csproj.CoreCompileInputs.cache
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.csproj.CopyComplete
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.exe
+C:\Users\plus\Desktop\C#\ModbusSampleCommon - 副本\obj\Debug\ModbusTester.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.AssemblyReference.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CoreCompileInputs.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CopyComplete
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.AssemblyReference.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\Modbus.frmStart.resources
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.GenerateResource.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CoreCompileInputs.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\bin\Debug\ModbusTester.exe.config
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\bin\Debug\ModbusTester.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\bin\Debug\ModbusTester.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\bin\Debug\ModbusTCP.dll
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.SuggestedBindingRedirects.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.csproj.CopyComplete
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪_post通信\ModbusSampleCommon\obj\Debug\ModbusTester.Form3.resources
