@@ -16,7 +16,8 @@ namespace 串口通信
         {
             InitializeComponent();
 
-            this.IsMdiContainer = true;
+            
+
         }
 
         private void InitializeComponent()

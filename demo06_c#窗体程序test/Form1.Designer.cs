@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace 串口通信
 {
     partial class Form1
     {

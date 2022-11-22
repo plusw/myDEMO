@@ -1,0 +1,11 @@
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\bin\Debug\test.exe.config
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\bin\Debug\test.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\bin\Debug\test.pdb
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.csproj.AssemblyReference.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.csproj.SuggestedBindingRedirects.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.Form1.resources
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.Properties.Resources.resources
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.csproj.GenerateResource.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.exe
+F:\a_myDEMO\demo02_C#窗口程序和plc_扫码枪通信\test\obj\Debug\test.pdb
