@@ -1,0 +1,15 @@
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+F:\a_myDEMO\demo10_text控制台应用\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
