@@ -43,15 +43,17 @@ namespace ModbusTester
         public Form3()
         {
             InitializeComponent();
+            this.Text = "你好深圳 V1.0  调试界面";
+            button4.Enabled = false;
+            button6.Enabled = false;
             readConfig();
-            openSerialPort();//打开串口
+            //openSerialPort();//打开串口
             btnReadInpReg.Enabled = false;
             button2.Enabled = false;
             //扫码枪串口事件
             serialPort1.DataReceived += new SerialDataReceivedEventHandler(port_DataReceived);
             serialPort1.Encoding = Encoding.GetEncoding("gb2312");//串口接收编码GB2312码
             System.Windows.Forms.Control.CheckForIllegalCrossThreadCalls = false;//忽略程序跨越线程运行导致的错误.没有此句将会产生错误
-
         }
         private void readConfig()
         {
@@ -77,7 +79,6 @@ namespace ModbusTester
             textBox1.Text = qr_completed_sign_address;
             textBox2.Text = qr_completed_sign_value;
             textBox3.Text = post_url;
-
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -128,7 +129,6 @@ namespace ModbusTester
                 case Master.excExceptionConnectionLost: exc += "Connection is lost!"; break;
                 case Master.excExceptionNotConnected: exc += "Not connected!"; break;
             }
-
             MessageBox.Show(exc, "Modbus slave exception");
         }
 
@@ -159,7 +159,7 @@ namespace ModbusTester
         private void button1_Click(object sender, EventArgs e)
         {
             string url = "";
-            url= "http://localhost:8080/web-demo/searchSong";
+            url=post_url;
            // url = textBox3.Text;
             using (HttpClient httpClient = new HttpClient(new HttpClientHandler
             {
@@ -168,7 +168,7 @@ namespace ModbusTester
             }))
             {
                 Dictionary<string, string> data = new Dictionary<string, string>();
-                data.Add("singer", "林俊杰");
+                data.Add(textBox5.Text, textBox6.Text);
                 httpClient.BaseAddress = new Uri(url);
                 FormUrlEncodedContent content = new FormUrlEncodedContent(data);
                 String result = httpClient.PostAsync(url, content).Result.Content.ReadAsStringAsync().Result;
@@ -262,12 +262,15 @@ namespace ModbusTester
         {
             if (!serialPort1.IsOpen)//没有打开
             {
-                serialPort1.PortName = "COM3";
+                serialPort1.PortName = textBox7.Text;
                 serialPort1.BaudRate = Convert.ToInt32("115200");
                 try
                 {
                     serialPort1.Open();
                     serialPort1.DataBits = Convert.ToInt32("8");
+                    button4.Enabled = true;
+                    button5.Enabled = false;
+                    button6.Enabled = true;
                 }
                 catch
                 {
@@ -310,6 +313,27 @@ namespace ModbusTester
         private void label17_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            openSerialPort();
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                serialPort1.Close();
+                button5.Enabled = true;
+                button4.Enabled = false;
+                button6.Enabled = false;
+            }
+            catch
+            {
+                MessageBox.Show("串口关闭失败", "提示");
+            }
         }
     }
     public class IPTools

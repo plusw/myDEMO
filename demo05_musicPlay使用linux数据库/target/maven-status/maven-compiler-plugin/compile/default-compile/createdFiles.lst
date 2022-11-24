@@ -5,3 +5,4 @@ com\itheima\web\SaveCookieServlet.class
 com\itheima\pojo\PageBean.class
 com\itheima\mapper\SongMapper.class
 com\itheima\pojo\Song.class
+com\itheima\web\Test_qr_.class
